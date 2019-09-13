@@ -62,6 +62,7 @@ b\*(abb*)\*(a|&epsilon;)
 ![图1](https://github.com/jpq6699/hellloworld/blob/master/2.11(4).PNG?raw=true)
 
 ##2.15
+
 ![图1](https://github.com/jpq6699/hellloworld/blob/master/2.15.jpg?raw=true)
 
 其中E为接受状态。
