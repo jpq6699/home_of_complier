@@ -121,10 +121,10 @@ FOLLOW(B)={a,b,$}
 建立分析表如下：
 
 
-| &nbsp; | a | b | $ |
-| S | S &rarr; aBS | S &rarr; bAS | S &rarr; &epsilon; |
-| A | A &rarr; a | A &rarr; bAA | &nbsp; |
-| B | B &rarr; aBB | B &rarr; b | &nbsp; |
+| &nbsp; | a            | b            | $                  |
+| S      | S &rarr; aBS | S &rarr; bAS | S &rarr; &epsilon; |
+| A      | A &rarr; a   | A &rarr; bAA | &nbsp;             |
+| B      | B &rarr; aBB | B &rarr; b   | &nbsp;             |
 
 ## 3.12
 不是LL1文法，因为S &rarr; AB | PQx 而FIRST(AB)={x},FIRST(PQx)={d,a,x},FIRST(AB) &cap; FIRST(PQx) != &emptyset;
