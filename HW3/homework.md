@@ -96,11 +96,11 @@ FOLLOW(R)={$}
 
 建立分析表如下：
 
-|   | int          | real          | id | , | $ |
-| D | D &rarr; TL  | D &rarr; TL   |    |           |   |
-| T | T &rarr; int | T &rarr; real |    |           |   |
-| L |              |               | L &rarr; id R | |  |
-| R |              |               |    | R &rarr; , id R | R &rarr; &epsilon; |
+| &nbsp; | int          | real          | id | , | $ |
+| D | D &rarr; TL  | D &rarr; TL   |  &nbsp;  |     &nbsp;      | &nbsp;  |
+| T | T &rarr; int | T &rarr; real | &nbsp;   |    &nbsp;       | &nbsp;  |
+| L |  &nbsp;      | &nbsp;        | L &rarr; id R |&nbsp; | &nbsp; |
+| R |  &nbsp;    |   &nbsp;     |  &nbsp;  | R &rarr; , id R | R &rarr; &epsilon; |
 
 ## 3.11
 首先计算FIRST和FOLLOW
