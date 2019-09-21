@@ -98,6 +98,7 @@ FOLLOW(R)={$}
 
 
 | &nbsp; | int          | real          | id | , | $ |
+| --- | --- | --- | --- | --- | --- |
 | D | D &rarr; TL  | D &rarr; TL   |  &nbsp;  |     &nbsp;      | &nbsp;  |
 | T | T &rarr; int | T &rarr; real | &nbsp;   |    &nbsp;       | &nbsp;  |
 | L |  &nbsp;      | &nbsp;        | L &rarr; id R |&nbsp; | &nbsp; |
@@ -122,6 +123,7 @@ FOLLOW(B)={a,b,$}
 
 
 | &nbsp; | a            | b            | $                  |
+| --- | --- | --- | --- | 
 | S      | S &rarr; aBS | S &rarr; bAS | S &rarr; &epsilon; |
 | A      | A &rarr; a   | A &rarr; bAA | &nbsp;             |
 | B      | B &rarr; aBB | B &rarr; b   | &nbsp;             |
