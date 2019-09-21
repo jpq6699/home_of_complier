@@ -96,6 +96,7 @@ FOLLOW(R)={$}
 
 建立分析表如下：
 
+
 | &nbsp; | int          | real          | id | , | $ |
 | D | D &rarr; TL  | D &rarr; TL   |  &nbsp;  |     &nbsp;      | &nbsp;  |
 | T | T &rarr; int | T &rarr; real | &nbsp;   |    &nbsp;       | &nbsp;  |
@@ -118,10 +119,12 @@ FOLLOW(A)={a,b,$}
 FOLLOW(B)={a,b,$}
 
 建立分析表如下：
-|   | a | b | $ |
+
+
+| &nbsp; | a | b | $ |
 | S | S &rarr; aBS | S &rarr; bAS | S &rarr; &epsilon; |
-| A | A &rarr; a | A &rarr; bAA |  |
-| B | B &rarr; aBB | B &rarr; b |  |
+| A | A &rarr; a | A &rarr; bAA | &nbsp; |
+| B | B &rarr; aBB | B &rarr; b | &nbsp; |
 
 ## 3.12
 不是LL1文法，因为S &rarr; AB | PQx 而FIRST(AB)={x},FIRST(PQx)={d,a,x},FIRST(AB) &cap; FIRST(PQx) != &emptyset;
