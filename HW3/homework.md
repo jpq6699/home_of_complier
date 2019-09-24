@@ -26,9 +26,12 @@ S &rarr; aSbS | bSaS | &epsilon;
 该文法不是正规文法
 
 ## 3.6（c）
-S &rarr; aS | bS | aK | bK
+S &rarr; AaA | BbB 
 
-K &rarr; aKbK | bKaK | &epsilon;
+A &rarr; aAbA | bAaA | aA | &epsilon;
+
+B &rarr; aBbB | bBaB | bB | &epsilon;
+
 
 该文法不是正规文法
 
@@ -55,9 +58,13 @@ L' &rarr; ,SL' | &epsilon;
 			L();
 			match(')');
 		}
-		else
+		else if
 		{
 			match('a');
+		}
+		else
+		{
+			error();
 		}
 	}
 	void L()
@@ -73,9 +80,13 @@ L' &rarr; ,SL' | &epsilon;
 			S();
 			L'();
 		}
-		else
+		else if
 		{
 			match('ε')
+		}
+		else
+		{
+			error();
 		}
 	}
 
